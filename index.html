@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub API</title>
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="width-40">
+                <h1>
+                    GitHub API
+                </h1>
+            </div>
+            <div class="width-60">
+                <span id="div-input">
+                    <input type="text" id="searchInput">
+                    <select name="typeSelected" id="typeSelected">
+                        <option value="" disabled selected>Seleziona...</option>
+                        <option value="repositories" id="repositories">Repositories</option>
+                        <option value="users" id="users">Users</option>
+                    </select>
+                    <button id="searchButton">Cerca</button>
+                </span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="card-container">
+            <div id="paginator">
+
+            </div>
+            <div id="cards">
+
+            </div>
+        </div>
+    </main>
+
+    <!--Script Axios-->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!--MyScript-->
+    <script type="module" src="./js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
