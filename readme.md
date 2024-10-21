@@ -31,9 +31,7 @@ Questa applicazione consente agli utenti di cercare repository o utenti su GitHu
 - Per cercare repository di un utente:
   - Nome utente: "torvalds", "octocat", ecc.
 
-## Contribuire
 
-Se desideri contribuire a questo progetto, apri una richiesta di pull o segnalami eventuali problemi. Ogni contributo è benvenuto!
 
 ## Installazione
 
@@ -69,9 +67,9 @@ Se desideri contribuire a questo progetto, apri una richiesta di pull o segnalam
 
 
 
+## Contribuire
 
-
-
+Se desideri contribuire a questo progetto, apri una richiesta di pull o segnalami eventuali problemi. Ogni contributo è benvenuto!
 
 ## Contatti
 
